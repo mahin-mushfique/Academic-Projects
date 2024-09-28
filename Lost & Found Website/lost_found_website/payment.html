@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+    <header>
+        <div class="" style="width: 35rem; height: 42rem;  ">
+    <div class="container">
+        
+        
+        <div class="left">
+            <h4>BILLING ADDRESS</h4>
+            <form>
+                Full name
+                <input type="text" name="" placeholder="Enter name">
+                Email
+                <input type="text" name="" placeholder="Enter Email">
+                Address
+                <input type="text" name="" placeholder="Enter Full Address">
+                City
+                <input type="text" name="" placeholder="Enter City">
+                <div>
+                    <label id="zip" >
+                        State
+                        <select >
+                            <option>Choose State</option>
+                            <option>Dhaka</option>
+                            <option>Sylhet</option>
+                            <option>Chattogram</option>
+                            <option>Cumilla</option>
+                            <option>Cox's bazar</option>
+
+                        </select>
+                    </label>
+                   
+                    
+                </div>
+            </form>
+        </div>
+        <div class="right">
+            <h4>PAYMENT</h4>
+            <form>
+                Accepted Card <br>
+                    <img src="images/paypal.jpg" alt="PayPal" width="180"><br> 
+                Credit Card Number
+                <input type="text" name="" placeholder="Enter Card Number">
+                Exp Month
+                <input type="text" name="" placeholder="Enter Month">
+                <div>
+                    <label id="zip" >
+                        Exp year
+                        <select >
+                            <option>Choose year</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                            
+
+                        </select><br><br>
+                        <label>
+                        CVV<br>
+                        <input type="number" name="" placeholder="Enter CVV">
+                    </label>
+                    </label>
+                    
+                   
+                    
+                </div>
+            </form>
+            <input type="submit" name="" value="Proceed to Checkout" onclick="f()">
+<script>
+    function f() {
+        alert("Checked Out!");
+    }
+</script>
+
+        </div>
+    </div>
+</header>
+</body>
+</html>
